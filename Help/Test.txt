@@ -1,0 +1,14 @@
+TestMicrosoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Dave\UWF\COT6931-II\ProjectFiles-II\Help.chm
+
+
+Compile time: 0 minutes, 0 seconds
+0	Topics
+0	Local links
+0	Internet links
+0	Graphics
+
+
+Created c:\Dave\UWF\COT6931-II\ProjectFiles-II\Help.chm, 10,179 bytes
+Compression increased file by 10,179 bytes.
