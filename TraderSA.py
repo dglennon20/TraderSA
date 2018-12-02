@@ -15,8 +15,8 @@ import requests
 # Froms
 import matplotlib.pyplot as plt
 #%matplotlib inline #The next two lines are pure python that also works in Spyder
-from IPython import get_ipython
-get_ipython().run_line_magic('matplotlib', 'qt')
+#from IPython import get_ipython
+#get_ipython().run_line_magic('matplotlib', 'qt')
 #from lxml import etree
 from bs4 import BeautifulSoup 
 from selenium import webdriver
