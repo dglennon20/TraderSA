@@ -5,7 +5,551 @@
 <Title>Install</Title>
 </HEAD>
 <BODY>
-<p>Install Instructions</p>
+<h1>Pre-requisites</h1>
+
+<p class=MsoNormal>Python 3.7.1</p>
+
+<p class=MsoNormal>Pandas, Beautiful Soup 4, Selenium, TextBlob, PyQt5,
+Tkinter, and Matplotlib</p>
+
+<p class=MsoNormal>Jupyter if you want to view the prototype work</p>
+
+<h1>Running the TraderGUI.exe</h1>
+
+<p class=MsoNormal>If you are only running the all in one exe, you will not
+need to worry about installing anything. Simply create a location for the
+TraderGUI.exe, copy the exe to that location and run the TraderGUI.exe file.</p>
+
+<p class=MsoNormal>The traderGUI.exe was too big to post to GitHub. You can
+find it on a shared folder on Google Drive - <span class=MsoHyperlink><a
+href="https://drive.google.com/open?id=1i3G1h1ii2G_uK5Dk2JWjiW12kt6tTcc2">https://drive.google.com/open?id=1i3G1h1ii2G_uK5Dk2JWjiW12kt6tTcc2</a></span>.
+Download this to your location specified above. There is also a test CSV file
+in that location that can be used for testing. Chromedriver will need to be
+downloaded prior to execution as well. It is best to perform a search for this
+before execution of the exe.</p>
+
+<h1>Installing the Build Environment</h1>
+
+<h2>Expert Level</h2>
+
+<p class=MsoNormal>There is a common saying among GitHub users, “Git Pull and
+Pray”. Seasoned users will be able to go to GitHub (<span class=MsoHyperlink><a
+href="https://github.com/dglennon20/TraderSA">https://github.com/dglennon20/TraderSA</a></span>)
+and Clone or download code. After this there may be some trial and error to get
+it to run. If you are not familiar with this, read on.</p>
+
+<h2>Installing Python</h2>
+
+<p class=MsoNormal>There are several ways to approach this. Anaconda is my
+preferred method, but it is a large program. Installing just python 3.7.1
+should suffice for using this application, but was not used or tested for this
+application.</p>
+
+<h2>Anaconda</h2>
+
+<p class=MsoNormal>A more robust solution is to install Anaconda instead of the
+above python. Anaconda provides the command prompt and Anaconda Navigator for
+package management as well as python. </p>
+
+<p class=MsoNormal>Install the latest Anaconda (with Python 3.7)</p>
+
+<p class=MsoNormal>Using the start menu button launch the Anaconda Command Prompt
+as Administrator.</p>
+
+<p class=MsoNormal>Install additional components: </p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Selenium  - conda install selenium, </p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>TextBlob – (does not default install), must use <i>conda install
+-c conda-forge textblob</i> </p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Chromedriver.exe – <span class=MsoHyperlink><a
+href="https://chromedriver.storage.googleapis.com/index.html?path=2.44/">https://chromedriver.storage.googleapis.com/index.html?path=2.44/</a></span></p>
+
+<h2>GitHub</h2>
+
+<p class=MsoNormal>Navigate to the location of TraderSA (<span
+class=MsoHyperlink><a href="https://github.com/dglennon20/TraderSA">https://github.com/dglennon20/TraderSA</a></span>)
+I use GitHub Desktop. I cloned it to the profile documents\github\TraderSA
+folder.</p>
+
+<h1>Appendix</h1>
+
+<h2>Python/Anaconda Stack</h2>
+
+<p class=MsoNoSpacing>absl-py==0.4.1</p>
+
+<p class=MsoNoSpacing>alabaster==0.7.11</p>
+
+<p class=MsoNoSpacing>altgraph==0.15</p>
+
+<p class=MsoNoSpacing>anaconda-client==1.7.2</p>
+
+<p class=MsoNoSpacing>anaconda-navigator==1.8.4</p>
+
+<p class=MsoNoSpacing>anaconda-project==0.8.2</p>
+
+<p class=MsoNoSpacing>appdirs==1.4.3</p>
+
+<p class=MsoNoSpacing>asn1crypto==0.24.0</p>
+
+<p class=MsoNoSpacing>astor==0.7.1</p>
+
+<p class=MsoNoSpacing>astroid==2.0.4</p>
+
+<p class=MsoNoSpacing>astropy==3.0.4</p>
+
+<p class=MsoNoSpacing>atomicwrites==1.2.1</p>
+
+<p class=MsoNoSpacing>attrs==18.2.0</p>
+
+<p class=MsoNoSpacing>Automat==0.7.0</p>
+
+<p class=MsoNoSpacing>Babel==2.6.0</p>
+
+<p class=MsoNoSpacing>backcall==0.1.0</p>
+
+<p class=MsoNoSpacing>backports.functools-lru-cache==1.5</p>
+
+<p class=MsoNoSpacing>backports.shutil-get-terminal-size==1.0.0</p>
+
+<p class=MsoNoSpacing>beautifulsoup4==4.6.3</p>
+
+<p class=MsoNoSpacing>bitarray==0.8.3</p>
+
+<p class=MsoNoSpacing>bkcharts==0.2</p>
+
+<p class=MsoNoSpacing>blaze==0.11.3</p>
+
+<p class=MsoNoSpacing>bleach==2.1.4</p>
+
+<p class=MsoNoSpacing>bokeh==0.13.0</p>
+
+<p class=MsoNoSpacing>boto==2.49.0</p>
+
+<p class=MsoNoSpacing>Bottleneck==1.2.1</p>
+
+<p class=MsoNoSpacing>certifi==2018.8.24</p>
+
+<p class=MsoNoSpacing>cffi==1.11.5</p>
+
+<p class=MsoNoSpacing>chardet==3.0.4</p>
+
+<p class=MsoNoSpacing>click==6.7</p>
+
+<p class=MsoNoSpacing>cloudpickle==0.5.5</p>
+
+<p class=MsoNoSpacing>clyent==1.2.2</p>
+
+<p class=MsoNoSpacing>colorama==0.3.9</p>
+
+<p class=MsoNoSpacing>comtypes==1.1.7</p>
+
+<p class=MsoNoSpacing>conda==4.5.11</p>
+
+<p class=MsoNoSpacing>conda-build==3.15.1</p>
+
+<p class=MsoNoSpacing>constantly==15.1.0</p>
+
+<p class=MsoNoSpacing>contextlib2==0.5.5</p>
+
+<p class=MsoNoSpacing>cryptography==2.3.1</p>
+
+<p class=MsoNoSpacing>cycler==0.10.0</p>
+
+<p class=MsoNoSpacing>Cython==0.28.5</p>
+
+<p class=MsoNoSpacing>cytoolz==0.9.0.1</p>
+
+<p class=MsoNoSpacing>dask==0.19.2</p>
+
+<p class=MsoNoSpacing>datashape==0.5.4</p>
+
+<p class=MsoNoSpacing>decorator==4.3.0</p>
+
+<p class=MsoNoSpacing>defusedxml==0.5.0</p>
+
+<p class=MsoNoSpacing>distributed==1.23.2</p>
+
+<p class=MsoNoSpacing>docutils==0.14</p>
+
+<p class=MsoNoSpacing>entrypoints==0.2.3</p>
+
+<p class=MsoNoSpacing>et-xmlfile==1.0.1</p>
+
+<p class=MsoNoSpacing>fastcache==1.0.2</p>
+
+<p class=MsoNoSpacing>filelock==3.0.8</p>
+
+<p class=MsoNoSpacing>Flask==1.0.2</p>
+
+<p class=MsoNoSpacing>Flask-Cors==3.0.6</p>
+
+<p class=MsoNoSpacing>future==0.16.0</p>
+
+<p class=MsoNoSpacing>gast==0.2.0</p>
+
+<p class=MsoNoSpacing>gevent==1.3.6</p>
+
+<p class=MsoNoSpacing>glob2==0.6</p>
+
+<p class=MsoNoSpacing>greenlet==0.4.15</p>
+
+<p class=MsoNoSpacing>grpcio==1.12.1</p>
+
+<p class=MsoNoSpacing>h5py==2.7.1</p>
+
+<p class=MsoNoSpacing>heapdict==1.0.0</p>
+
+<p class=MsoNoSpacing>html5lib==1.0.1</p>
+
+<p class=MsoNoSpacing>hyperlink==18.0.0</p>
+
+<p class=MsoNoSpacing>idna==2.7</p>
+
+<p class=MsoNoSpacing>imageio==2.4.1</p>
+
+<p class=MsoNoSpacing>imagesize==1.1.0</p>
+
+<p class=MsoNoSpacing>incremental==17.5.0</p>
+
+<p class=MsoNoSpacing>ipykernel==4.10.0</p>
+
+<p class=MsoNoSpacing>ipython==7.0.1</p>
+
+<p class=MsoNoSpacing>ipython-genutils==0.2.0</p>
+
+<p class=MsoNoSpacing>ipywidgets==7.4.1</p>
+
+<p class=MsoNoSpacing>isort==4.3.4</p>
+
+<p class=MsoNoSpacing>itsdangerous==0.24</p>
+
+<p class=MsoNoSpacing>jdcal==1.4</p>
+
+<p class=MsoNoSpacing>jedi==0.12.1</p>
+
+<p class=MsoNoSpacing>Jinja2==2.10</p>
+
+<p class=MsoNoSpacing>jsonschema==2.6.0</p>
+
+<p class=MsoNoSpacing>jupyter==1.0.0</p>
+
+<p class=MsoNoSpacing>jupyter-client==5.2.3</p>
+
+<p class=MsoNoSpacing>jupyter-console==5.2.0</p>
+
+<p class=MsoNoSpacing>jupyter-core==4.4.0</p>
+
+<p class=MsoNoSpacing>jupyterlab==0.34.9</p>
+
+<p class=MsoNoSpacing>jupyterlab-launcher==0.13.1</p>
+
+<p class=MsoNoSpacing>Keras==2.2.2</p>
+
+<p class=MsoNoSpacing>Keras-Applications==1.0.4</p>
+
+<p class=MsoNoSpacing>Keras-Preprocessing==1.0.2</p>
+
+<p class=MsoNoSpacing>keyring==13.2.1</p>
+
+<p class=MsoNoSpacing>kiwisolver==1.0.1</p>
+
+<p class=MsoNoSpacing>lazy-object-proxy==1.3.1</p>
+
+<p class=MsoNoSpacing>libarchive-c==2.8</p>
+
+<p class=MsoNoSpacing>llvmlite==0.24.0</p>
+
+<p class=MsoNoSpacing>locket==0.2.0</p>
+
+<p class=MsoNoSpacing>lxml==4.2.5</p>
+
+<p class=MsoNoSpacing>macholib==1.11</p>
+
+<p class=MsoNoSpacing>Markdown==2.6.11</p>
+
+<p class=MsoNoSpacing>MarkupSafe==1.0</p>
+
+<p class=MsoNoSpacing>matplotlib==2.2.3</p>
+
+<p class=MsoNoSpacing>mccabe==0.6.1</p>
+
+<p class=MsoNoSpacing>menuinst==1.4.14</p>
+
+<p class=MsoNoSpacing>mistune==0.8.3</p>
+
+<p class=MsoNoSpacing>mkl-fft==1.0.6</p>
+
+<p class=MsoNoSpacing>mkl-random==1.0.1</p>
+
+<p class=MsoNoSpacing>mock==2.0.0</p>
+
+<p class=MsoNoSpacing>more-itertools==4.3.0</p>
+
+<p class=MsoNoSpacing>mpmath==1.0.0</p>
+
+<p class=MsoNoSpacing>msgpack==0.5.6</p>
+
+<p class=MsoNoSpacing>multipledispatch==0.6.0</p>
+
+<p class=MsoNoSpacing>nbconvert==5.3.1</p>
+
+<p class=MsoNoSpacing>nbformat==4.4.0</p>
+
+<p class=MsoNoSpacing>networkx==2.1</p>
+
+<p class=MsoNoSpacing>nltk==3.3</p>
+
+<p class=MsoNoSpacing>nose==1.3.7</p>
+
+<p class=MsoNoSpacing>notebook==5.6.0</p>
+
+<p class=MsoNoSpacing>numba==0.39.0</p>
+
+<p class=MsoNoSpacing>numexpr==2.6.8</p>
+
+<p class=MsoNoSpacing>numpy==1.15.2</p>
+
+<p class=MsoNoSpacing>numpydoc==0.8.0</p>
+
+<p class=MsoNoSpacing>odo==0.5.1</p>
+
+<p class=MsoNoSpacing>olefile==0.46</p>
+
+<p class=MsoNoSpacing>openpyxl==2.5.6</p>
+
+<p class=MsoNoSpacing>packaging==17.1</p>
+
+<p class=MsoNoSpacing>pandas==0.23.4</p>
+
+<p class=MsoNoSpacing>pandocfilters==1.4.2</p>
+
+<p class=MsoNoSpacing>parso==0.3.1</p>
+
+<p class=MsoNoSpacing>partd==0.3.8</p>
+
+<p class=MsoNoSpacing>path.py==11.1.0</p>
+
+<p class=MsoNoSpacing>pathlib2==2.3.2</p>
+
+<p class=MsoNoSpacing>patsy==0.5.0</p>
+
+<p class=MsoNoSpacing>pbr==4.2.0</p>
+
+<p class=MsoNoSpacing>pefile==2018.8.8</p>
+
+<p class=MsoNoSpacing>pep8==1.7.1</p>
+
+<p class=MsoNoSpacing>pickleshare==0.7.4</p>
+
+<p class=MsoNoSpacing>Pillow==2.9.0</p>
+
+<p class=MsoNoSpacing>pkginfo==1.4.2</p>
+
+<p class=MsoNoSpacing>pluggy==0.7.1</p>
+
+<p class=MsoNoSpacing>ply==3.11</p>
+
+<p class=MsoNoSpacing>prometheus-client==0.3.1</p>
+
+<p class=MsoNoSpacing>prompt-toolkit==2.0.7</p>
+
+<p class=MsoNoSpacing>protobuf==3.5.2</p>
+
+<p class=MsoNoSpacing>psutil==5.4.7</p>
+
+<p class=MsoNoSpacing>py==1.6.0</p>
+
+<p class=MsoNoSpacing>py2exe==0.9.2.2</p>
+
+<p class=MsoNoSpacing>pyasn1==0.4.4</p>
+
+<p class=MsoNoSpacing>pyasn1-modules==0.2.2</p>
+
+<p class=MsoNoSpacing>pycodestyle==2.4.0</p>
+
+<p class=MsoNoSpacing>pycosat==0.6.3</p>
+
+<p class=MsoNoSpacing>pycparser==2.19</p>
+
+<p class=MsoNoSpacing>pycrypto==2.6.1</p>
+
+<p class=MsoNoSpacing>pycurl==7.43.0.2</p>
+
+<p class=MsoNoSpacing>pyflakes==2.0.0</p>
+
+<p class=MsoNoSpacing>Pygments==2.2.0</p>
+
+<p class=MsoNoSpacing>PyHamcrest==1.9.0</p>
+
+<p class=MsoNoSpacing>PyInstaller==3.3.1</p>
+
+<p class=MsoNoSpacing>pylint==2.1.1</p>
+
+<p class=MsoNoSpacing>pyodbc==4.0.24</p>
+
+<p class=MsoNoSpacing>pyOpenSSL==18.0.0</p>
+
+<p class=MsoNoSpacing>pyparsing==2.2.1</p>
+
+<p class=MsoNoSpacing>PyQt5==5.9.2</p>
+
+<p class=MsoNoSpacing>PyQt5-sip==4.19.13</p>
+
+<p class=MsoNoSpacing>PySocks==1.6.8</p>
+
+<p class=MsoNoSpacing>pytest==3.8.1</p>
+
+<p class=MsoNoSpacing>pytest-arraydiff==0.2</p>
+
+<p class=MsoNoSpacing>pytest-astropy==0.4.0</p>
+
+<p class=MsoNoSpacing>pytest-doctestplus==0.1.3</p>
+
+<p class=MsoNoSpacing>pytest-openfiles==0.3.0</p>
+
+<p class=MsoNoSpacing>pytest-remotedata==0.3.0</p>
+
+<p class=MsoNoSpacing>python-dateutil==2.7.3</p>
+
+<p class=MsoNoSpacing>pytz==2018.5</p>
+
+<p class=MsoNoSpacing>PyWavelets==1.0.0</p>
+
+<p class=MsoNoSpacing>pywin32==223</p>
+
+<p class=MsoNoSpacing>pywinpty==0.5.4</p>
+
+<p class=MsoNoSpacing>PyYAML==3.13</p>
+
+<p class=MsoNoSpacing>pyzmq==17.1.2</p>
+
+<p class=MsoNoSpacing>QtAwesome==0.4.4</p>
+
+<p class=MsoNoSpacing>qtconsole==4.3.1</p>
+
+<p class=MsoNoSpacing>QtPy==1.5.0</p>
+
+<p class=MsoNoSpacing>requests==2.19.1</p>
+
+<p class=MsoNoSpacing>rope==0.11.0</p>
+
+<p class=MsoNoSpacing>ruamel-yaml==0.15.46</p>
+
+<p class=MsoNoSpacing>scikit-image==0.13.1</p>
+
+<p class=MsoNoSpacing>scikit-learn==0.20.0</p>
+
+<p class=MsoNoSpacing>scipy==1.1.0</p>
+
+<p class=MsoNoSpacing>seaborn==0.9.0</p>
+
+<p class=MsoNoSpacing>selenium==3.14.1</p>
+
+<p class=MsoNoSpacing>Send2Trash==1.5.0</p>
+
+<p class=MsoNoSpacing>service-identity==17.0.0</p>
+
+<p class=MsoNoSpacing>simplegeneric==0.8.1</p>
+
+<p class=MsoNoSpacing>singledispatch==3.4.0.3</p>
+
+<p class=MsoNoSpacing>sip==4.19.8</p>
+
+<p class=MsoNoSpacing>six==1.11.0</p>
+
+<p class=MsoNoSpacing>snowballstemmer==1.2.1</p>
+
+<p class=MsoNoSpacing>sortedcollections==1.0.1</p>
+
+<p class=MsoNoSpacing>sortedcontainers==2.0.5</p>
+
+<p class=MsoNoSpacing>Sphinx==1.7.9</p>
+
+<p class=MsoNoSpacing>sphinxcontrib-websupport==1.1.0</p>
+
+<p class=MsoNoSpacing>spyder==3.3.0</p>
+
+<p class=MsoNoSpacing>spyder-kernels==0.2.6</p>
+
+<p class=MsoNoSpacing>SQLAlchemy==1.2.11</p>
+
+<p class=MsoNoSpacing>statsmodels==0.9.0</p>
+
+<p class=MsoNoSpacing>style==1.1.0</p>
+
+<p class=MsoNoSpacing>sympy==1.2</p>
+
+<p class=MsoNoSpacing>tables==3.4.2</p>
+
+<p class=MsoNoSpacing>tblib==1.3.2</p>
+
+<p class=MsoNoSpacing>tensorboard==1.10.0</p>
+
+<p class=MsoNoSpacing>tensorflow==1.9.0</p>
+
+<p class=MsoNoSpacing>termcolor==1.1.0</p>
+
+<p class=MsoNoSpacing>terminado==0.8.1</p>
+
+<p class=MsoNoSpacing>testpath==0.3.1</p>
+
+<p class=MsoNoSpacing>textblob==0.15.1</p>
+
+<p class=MsoNoSpacing>tflearn==0.3.2</p>
+
+<p class=MsoNoSpacing>toolz==0.9.0</p>
+
+<p class=MsoNoSpacing>tornado==5.1.1</p>
+
+<p class=MsoNoSpacing>tqdm==4.26.0</p>
+
+<p class=MsoNoSpacing>traitlets==4.3.2</p>
+
+<p class=MsoNoSpacing>Twisted==18.7.0</p>
+
+<p class=MsoNoSpacing>typed-ast==1.1.0</p>
+
+<p class=MsoNoSpacing>unicodecsv==0.14.1</p>
+
+<p class=MsoNoSpacing>update==0.0.1</p>
+
+<p class=MsoNoSpacing>urllib3==1.23</p>
+
+<p class=MsoNoSpacing>wcwidth==0.1.7</p>
+
+<p class=MsoNoSpacing>webencodings==0.5.1</p>
+
+<p class=MsoNoSpacing>Werkzeug==0.14.1</p>
+
+<p class=MsoNoSpacing>widgetsnbextension==3.4.1</p>
+
+<p class=MsoNoSpacing>win-inet-pton==1.0.1</p>
+
+<p class=MsoNoSpacing>win-unicode-console==0.5</p>
+
+<p class=MsoNoSpacing>wincertstore==0.2</p>
+
+<p class=MsoNoSpacing>wrapt==1.10.11</p>
+
+<p class=MsoNoSpacing>xlrd==1.1.0</p>
+
+<p class=MsoNoSpacing>XlsxWriter==1.1.1</p>
+
+<p class=MsoNoSpacing>xlwings==0.11.8</p>
+
+<p class=MsoNoSpacing>xlwt==1.3.0</p>
+
+<p class=MsoNoSpacing>zict==0.1.3</p>
+
+<p class=MsoNoSpacing>zope.interface==4.5.0</p>
 
 </BODY>
 </HTML>
